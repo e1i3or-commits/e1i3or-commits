@@ -1,82 +1,90 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/e1i3or-commits/e1i3or-commits/main/header.svg" width="100%" alt="Event Horizon" />
-
-# e1ix0r
-
-**NixOS Infrastructure Engineer & Desktop Ricer**
-
-`niri` | `wayland` | `nix flakes` | `proxmox` | `amd`
-
----
+<img src="https://raw.githubusercontent.com/e1i3or-commits/e1i3or-commits/main/header.svg" width="100%" alt="e1ix0r" />
 
 </div>
 
 ### About
 
-Systems engineer running NixOS on bare metal with a focus on reproducible infrastructure, Wayland compositing, and open-source tooling. I build and maintain self-hosted services across Proxmox homelab and Hetzner dedicated servers, and I spend an unreasonable amount of time making my desktop look exactly right.
+Technical founder at **TourScale** &mdash; a multi-brand experiential tourism company operating across 80+ franchise locations in the US. I design and build the entire tech stack: marketing sites, internal platforms, financial systems, email automation, and the infrastructure underneath it all.
 
-Currently crafting the **Event Horizon** rice &mdash; a dark theme built around deep blue-greys, teal accents, and warm peachy tones on the Niri Wayland compositor with Noctalia Shell.
+Brands under the TourScale umbrella include **Cruisin' Tikis** (tiki boat tours), **Trolley Pub** (pedal pub crawls), **Paddle Pub**, and **Tiki Pub** &mdash; plus **TourCraft** (commercial boat & bike manufacturing) and **ListMyFleet** (B2B vessel marketplace).
 
-### Workstation
+I ship across the full stack &mdash; databases to frontends to bare-metal servers &mdash; and automate everything I can.
 
-```
-OS       NixOS (unstable)          WM       niri (Wayland)
-CPU      AMD Ryzen 9 7900X         GPU      AMD Radeon RX 7900 XT
-Shell    fish                      Term     kitty
-Display  5120x1440 + 3440x1440    Theme    Event Horizon (Horizon Dark)
-```
+---
 
-### Stack
+### What I Build
 
 <table>
 <tr>
 <td width="50%">
 
-**Desktop & Infra**
-- NixOS + Flakes + Home Manager
-- Niri compositor + Noctalia Shell
-- Proxmox VE (dual-node homelab)
-- Hetzner dedicated (production)
-- Tailscale mesh networking
+**Platforms & SaaS**
+- Franchise operator portal (Next.js + Supabase)
+- Tour staffing & captain scheduling system
+- Cashflow tracker with bank sync (Teller.io + Ramp)
+- B2B vessel marketplace with Stripe subscriptions
+- AI-powered social media scheduling (Postiz fork)
 
 </td>
 <td width="50%">
 
-**Dev & Services**
-- Fish shell + Neovim + Kitty
-- N8N workflow automation
-- Zoho ecosystem (CRM, Mail, WorkDrive)
-- ERPNext, Mautic, Postiz
-- Claude Code + AI-assisted workflows
+**Infrastructure & Automation**
+- Self-hosted production on Hetzner dedicated
+- Proxmox homelab (dual-node cluster)
+- N8N workflow pipelines (Peek Pro, Mautic, GA4)
+- ERPNext for multi-company accounting
+- Claude API integrations for reports & content
+
+</td>
+</tr>
+<tr>
+<td width="50%">
+
+**Marketing Sites**
+- 8+ brand websites on Vercel (Astro + Next.js)
+- Franchise territory maps & lead generation
+- SEO-optimized location pages at scale
+- Google Ads campaigns ($1.7k/mo)
+
+</td>
+<td width="50%">
+
+**Integrations**
+- Zoho ecosystem (CRM, Books, Desk, WorkDrive + 7 more)
+- Peek Pro booking sync across 60+ locations
+- Porkbun DNS management agent (AI-powered)
+- Mautic lifecycle email marketing
+- Custom Zoho MCP server for Claude Code
 
 </td>
 </tr>
 </table>
 
-### Featured Projects
+---
+
+### Stack
+
+```
+Frontend     Next.js 16, Astro 6, React 19, Tailwind CSS 4, Framer Motion
+Backend      Node.js, Python, Rust (emerging), PostgreSQL, MariaDB
+Infra        Docker, NixOS, Proxmox VE, Hetzner, Vercel, Caddy
+Automation   N8N, Temporal, Claude API, Mautic, Zoho
+Dev          Fish shell, Neovim, Kitty, Claude Code, Niri (Wayland)
+```
+
+### Open Source
 
 | Repo | Description |
 |------|-------------|
-| [**dotfiles**](https://github.com/e1i3or-commits/dotfiles) | NixOS Event Horizon desktop config &mdash; Niri, Noctalia, dual-AMD GPU |
 | [**zoho-workdrive-nixos**](https://github.com/e1i3or-commits/zoho-workdrive-nixos) | Zoho WorkDrive TrueSync integration for NixOS/Wayland |
 | [**claude-cowork-nixos**](https://github.com/e1i3or-commits/claude-cowork-nixos) | Run Claude Desktop with Cowork tabs on NixOS Linux |
+| [**dotfiles**](https://github.com/e1i3or-commits/dotfiles) | NixOS desktop config &mdash; Niri compositor, dual-AMD GPU, Wayland |
 | [**clickup-thunderbird-sync**](https://github.com/e1i3or-commits/clickup-thunderbird-sync) | Two-way ClickUp &harr; Thunderbird sync via Radicale CalDAV |
-
-### Event Horizon Palette
-
-```
-Background  #1c1e26  ███  Foreground  #fadad1  ███
-Accent      #26bbd9  ███  Magenta     #ee64ac  ███
-Green       #29d398  ███  Yellow      #fab795  ███
-Red         #e95678  ███  Cyan        #59e3e3  ███
-Muted       #6c6f93  ███
-```
-
-<div align="center">
 
 ---
 
-<sub>Built with NixOS &bull; Themed with Event Horizon &bull; Powered by too much coffee</sub>
-
+<div align="center">
+<sub>Building software and experiences &bull; 80+ locations &bull; 4 brands &bull; 1 stack</sub>
 </div>
