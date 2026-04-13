@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://raw.githubusercontent.com/e1i3or-commits/e1i3or-commits/main/header.svg" width="100%" alt="e1ix0r" />
+<img src="https://raw.githubusercontent.com/e1i3or-commits/e1i3or-commits/main/header.svg?v=2" width="100%" alt="e1ix0r" />
 
 </div>
 
