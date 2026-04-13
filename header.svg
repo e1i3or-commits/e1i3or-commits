@@ -38,9 +38,9 @@
     <circle cx="960" cy="240" r="1" /><circle cx="1020" cy="240" r="1" /><circle cx="1080" cy="240" r="1" /><circle cx="1140" cy="240" r="1" />
   </g>
 
-  <!-- Name -->
-  <text x="600" y="105" font-family="'Segoe UI', system-ui, -apple-system, sans-serif" font-size="52" font-weight="700" fill="#e6edf3" text-anchor="middle" letter-spacing="-1">
-    e1ix0r
+  <!-- Name (per-character coloring) -->
+  <text x="600" y="105" font-family="monospace, 'Courier New'" font-size="52" font-weight="700" text-anchor="middle" letter-spacing="2">
+    <tspan fill="#26bbd9">e</tspan><tspan fill="#3fc4de">1</tspan><tspan fill="#59e3e3">i</tspan><tspan fill="#ee64ac">x</tspan><tspan fill="#fab795">0</tspan><tspan fill="#e95678">r</tspan>
   </text>
 
   <!-- Role -->
